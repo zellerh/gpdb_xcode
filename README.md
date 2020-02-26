@@ -1,7 +1,7 @@
 # gpdb_xcode
 Files to make XCode work with the gpdb source tree
 
-Download the CMakeLists.txt file to your top-level gpdb directory and run the following commands (on MacOS):
+Run the following commands (on MacOS) in your top-level gpdb directory:
 
 ```
 wget https://raw.githubusercontent.com/zellerh/gpdb_xcode/CMakeLists.txt
