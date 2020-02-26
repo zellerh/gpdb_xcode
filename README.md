@@ -4,7 +4,7 @@ Files to make XCode work with the gpdb source tree
 Run the following commands (on MacOS) in your top-level gpdb directory:
 
 ```
-wget https://raw.githubusercontent.com/zellerh/gpdb_xcode/CMakeLists.txt
+wget https://raw.githubusercontent.com/zellerh/gpdb_xcode/master/CMakeLists.txt
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer/
 
 rm -rf build.xcode
