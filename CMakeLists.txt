@@ -1,8 +1,6 @@
 cmake_minimum_required(VERSION 3.6)
 project(gpdb)
 
-add_subdirectory(src/backend/gporca)
-
 file(GLOB_RECURSE SRC_FILES
         "*.c"
         "*.cpp"
