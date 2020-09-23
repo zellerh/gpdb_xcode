@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# copy this file into the .git/hooks directory of your repository and make it executable
+
+GIT_ROOTDIR=`git rev-parse --show-toplevel`
+
+cd $GIT_ROOTDIR
+
+if [ -f src/backend/gporca/.clang-format ]; then
+  echo "Checking for clang-format errors..."
+
+  src/tools/fmt chk
+fi
