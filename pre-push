@@ -10,4 +10,9 @@ if [ -f src/backend/gporca/.clang-format ]; then
   echo "Checking for clang-format errors..."
 
   src/tools/fmt chk
+
+  if [ $? -ne 0 ]; then
+    echo "Please format your source code before pushing: src/tools/fmt fmt"
+    exit 99
+  fi
 fi
