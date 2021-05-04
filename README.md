@@ -15,3 +15,6 @@ open gpdb.xcodeproj/
 
 sudo xcode-select -s /Library/Developer/CommandLineTools
 ```
+
+Alternatively, the aliases.sh file contains some bash commands to build GPDB
+and to set up the XCode projects.
